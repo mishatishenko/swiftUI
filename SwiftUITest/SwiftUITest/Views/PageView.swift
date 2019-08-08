@@ -1,5 +1,5 @@
 //
-//  GridView.swift
+//  PageView.swift
 //  SwiftUITest
 //
 //  Created by mtishchenko on 08.08.2019.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct GridView: View {
+struct PageView: View {
     private var items: [FileItem]
     
     init(items: [FileItem]) {
@@ -16,6 +16,6 @@ struct GridView: View {
     }
 
     var body: some View {
-        Text("grid")
+        Text("page")
     }
 }
